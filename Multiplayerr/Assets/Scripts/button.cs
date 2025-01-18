@@ -1,45 +1,46 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class button : MonoBehaviour
 {
-    public GameObject[] objectsToActivate;
+    public GameObject puzzleactivate;
+    public GameObject P2puzzleactivate;
     
 
     
     private void Start()
     {
-        foreach (GameObject obj in objectsToActivate)
+        puzzleactivate.SetActive(false);
+        P2puzzleactivate.SetActive(false);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+       if (other.gameObject.tag == "P1")
         {
-        //    obj.SetActive(false);
+            puzzleactivate.SetActive(true);
+            Debug.Log("P1 activate");
+        }
+        if (other.gameObject.tag == "P2")
+        {
+            P2puzzleactivate.SetActive(true);
+            Debug.Log("P2 activate");
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-        //if (other.gameObject.tag==("P1"))
-        //{
-            Debug.Log("enter");
 
-            foreach (GameObject obj in objectsToActivate)
-            {
-                obj.SetActive(true);
-            }
-       // }
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        //if (other.gameObject.tag==("P1"))
-        //{
-            Debug.Log("exit");
-
-            foreach (GameObject obj in objectsToActivate)
-            {
-                obj.SetActive(false);
-            }
-
-            
-        //}
+        if (other.gameObject.tag == "P1")
+        {
+            puzzleactivate.SetActive(false);
+            Debug.Log("P1 DEactivate");
+        }
+        if (other.gameObject.tag == "P2")
+        {
+            P2puzzleactivate.SetActive(false);
+            Debug.Log("P2 activate");
+        }
     }
 
 }
