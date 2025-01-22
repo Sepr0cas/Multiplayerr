@@ -1,18 +1,20 @@
 using Fusion;
 using UnityEngine;
+using System.Collections;
 
 public class PlayerMovement : NetworkBehaviour
 {
-    private Vector3 _velocity;
+    public Vector3 _velocity;
     private bool _jumpPressed;
 
     private CharacterController _controller;
 
     public float PlayerSpeed = 2f;
+    public float WindStrength = 5f; // Public for easy wind force adjustment
 
     public float JumpForce = 5f;
     public float GravityValue = -9.81f;
-    
+
     public Camera Camera;
 
     private void Awake()
@@ -27,6 +29,7 @@ public class PlayerMovement : NetworkBehaviour
             _jumpPressed = true;
         }
     }
+
     public override void Spawned()
     {
         if (HasStateAuthority)
@@ -48,6 +51,8 @@ public class PlayerMovement : NetworkBehaviour
         Quaternion cameraRotationY = Quaternion.Euler(0, Camera.transform.rotation.eulerAngles.y, 0);
         Vector3 move = cameraRotationY * new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) * Runner.DeltaTime * PlayerSpeed;
 
+        
+
         _velocity.y += GravityValue * Runner.DeltaTime;
         if (_jumpPressed && _controller.isGrounded)
         {
@@ -62,4 +67,7 @@ public class PlayerMovement : NetworkBehaviour
 
         _jumpPressed = false;
     }
+
+   
+ 
 }

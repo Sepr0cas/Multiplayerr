@@ -367,6 +367,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/button.cs"
+"Assets/Scripts/destroywall.cs"
 "Assets/Scripts/FirstPersonCamera.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Health.cs"
@@ -375,6 +376,8 @@
 "Assets/Scripts/Moving platform.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PlayerSpawner.cs"
+"Assets/Scripts/Respawn.cs"
+"Assets/Scripts/reversebutton.cs"
 "Assets/Scripts/StartSceneMenu.cs"
 -langversion:9.0
 /unsafe+
