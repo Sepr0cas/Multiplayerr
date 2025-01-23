@@ -5,9 +5,14 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - FirstPersonCamera
     - GameManager
+    - MovingPlatform
     - PlayerMovement
     - PlayerSpawner
+    - Respawn
     - StartSceneMenu
+    - WinScreen
+    - button
+    - reversebutton
     Fusion.Realtime.dll:
     - Fusion.Photon.Realtime.PhotonAppSettings
     Fusion.Runtime.dll:
@@ -24,8 +29,6 @@ ScriptsOnlyBuild:
     - Fusion.Statistics.FusionStatsConfig
     - Fusion.Statistics.FusionStatsGraphDefault
     - Fusion.Statistics.FusionStatsPanelHeader
-    Fusion.Unity.Editor.dll:
-    - Fusion.Editor.FusionEditorSkin
     Fusion.Unity.dll:
     - Fusion.EnableOnSingleRunner
     - Fusion.FusionBootstrap
@@ -184,7 +187,68 @@ ScriptsOnlyBuild:
   - assembly: Fusion.Unity
     fullTypeName: Fusion.Statistics.FusionNetworkObjectStatsGraphCombine
     methodName: DestroyCombinedGraph
+  - assembly: Assembly-CSharp
+    fullTypeName: StartSceneMenu
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: StartSceneMenu
+    methodName: QuitGame
   sceneClasses:
+    Assets/Scenes/EndScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1626}
+    - Class: 114
+      Script: {instanceID: 2640}
+    - Class: 114
+      Script: {instanceID: 2860}
+    - Class: 114
+      Script: {instanceID: 3164}
+    - Class: 114
+      Script: {instanceID: 5106}
+    - Class: 114
+      Script: {instanceID: 5120}
+    - Class: 114
+      Script: {instanceID: 5686}
+    - Class: 114
+      Script: {instanceID: 5882}
+    - Class: 114
+      Script: {instanceID: 6222}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Shared.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -206,6 +270,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -215,29 +281,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 606}
+      Script: {instanceID: 632}
     - Class: 114
-      Script: {instanceID: 17290}
+      Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 20582}
+      Script: {instanceID: 2208}
     - Class: 114
-      Script: {instanceID: 20878}
+      Script: {instanceID: 2628}
     - Class: 114
-      Script: {instanceID: 20882}
+      Script: {instanceID: 2708}
     - Class: 114
-      Script: {instanceID: 20886}
+      Script: {instanceID: 4340}
     - Class: 114
-      Script: {instanceID: 20890}
+      Script: {instanceID: 5510}
     - Class: 114
-      Script: {instanceID: 20892}
+      Script: {instanceID: 5550}
     - Class: 114
-      Script: {instanceID: 21976}
+      Script: {instanceID: 5812}
     - Class: 114
-      Script: {instanceID: 22560}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 22950}
+      Script: {instanceID: 5820}
     - Class: 114
-      Script: {instanceID: 23130}
+      Script: {instanceID: 5824}
+    - Class: 114
+      Script: {instanceID: 5826}
+    - Class: 114
+      Script: {instanceID: 6102}
+    - Class: 114
+      Script: {instanceID: 6912}
+    - Class: 114
+      Script: {instanceID: 7496}
+    - Class: 114
+      Script: {instanceID: 7886}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -280,75 +356,75 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16712}
+      Script: {instanceID: 1626}
     - Class: 114
-      Script: {instanceID: 17290}
+      Script: {instanceID: 1824}
     - Class: 114
-      Script: {instanceID: 17302}
+      Script: {instanceID: 2208}
     - Class: 114
-      Script: {instanceID: 17720}
+      Script: {instanceID: 2220}
     - Class: 114
-      Script: {instanceID: 17822}
+      Script: {instanceID: 2640}
     - Class: 114
-      Script: {instanceID: 17920}
+      Script: {instanceID: 2744}
     - Class: 114
-      Script: {instanceID: 17938}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 18242}
+      Script: {instanceID: 2860}
     - Class: 114
-      Script: {instanceID: 18310}
+      Script: {instanceID: 3164}
     - Class: 114
-      Script: {instanceID: 18414}
+      Script: {instanceID: 3232}
     - Class: 114
-      Script: {instanceID: 18990}
+      Script: {instanceID: 3336}
     - Class: 114
-      Script: {instanceID: 19214}
+      Script: {instanceID: 3912}
     - Class: 114
-      Script: {instanceID: 19228}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 19486}
+      Script: {instanceID: 4150}
     - Class: 114
-      Script: {instanceID: 20068}
+      Script: {instanceID: 4412}
     - Class: 114
-      Script: {instanceID: 20120}
+      Script: {instanceID: 4994}
     - Class: 114
-      Script: {instanceID: 20192}
+      Script: {instanceID: 5046}
     - Class: 114
-      Script: {instanceID: 20442}
+      Script: {instanceID: 5106}
     - Class: 114
-      Script: {instanceID: 20754}
+      Script: {instanceID: 5120}
     - Class: 114
-      Script: {instanceID: 20882}
+      Script: {instanceID: 5370}
     - Class: 114
-      Script: {instanceID: 20886}
+      Script: {instanceID: 5686}
     - Class: 114
-      Script: {instanceID: 20888}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 20892}
+      Script: {instanceID: 5820}
     - Class: 114
-      Script: {instanceID: 20948}
+      Script: {instanceID: 5822}
     - Class: 114
-      Script: {instanceID: 21286}
+      Script: {instanceID: 5826}
     - Class: 114
-      Script: {instanceID: 21294}
+      Script: {instanceID: 5882}
     - Class: 114
-      Script: {instanceID: 21696}
+      Script: {instanceID: 6222}
     - Class: 114
-      Script: {instanceID: 22074}
+      Script: {instanceID: 6230}
     - Class: 114
-      Script: {instanceID: 22154}
+      Script: {instanceID: 6632}
     - Class: 114
-      Script: {instanceID: 22344}
+      Script: {instanceID: 7010}
     - Class: 114
-      Script: {instanceID: 22376}
+      Script: {instanceID: 7090}
     - Class: 114
-      Script: {instanceID: 22634}
+      Script: {instanceID: 7280}
     - Class: 114
-      Script: {instanceID: 22670}
+      Script: {instanceID: 7312}
     - Class: 114
-      Script: {instanceID: 26746}
+      Script: {instanceID: 7570}
     - Class: 114
-      Script: {instanceID: 26754}
+      Script: {instanceID: 7606}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -414,10 +490,22 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: e55eaf3085208bacd23d3d36d73ecb92
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: f778e23b6ff26b8de4721be0eb1fa240
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9733ea9304530ce5214cf2076c303a32
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerSpawner
   - hash:
       serializedVersion: 2
       Hash: f854af586011dd194574f89546642e29
@@ -432,7 +520,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: f44b64815c8f9321addf3fc1505e01f7
+      Hash: b519ffb48bc0b8a7f1e9b66a9dc28cd4
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -486,6 +574,12 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 9314d242655ed5ec3b0d75f8b54fd9e5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WinScreen
+  - hash:
+      serializedVersion: 2
       Hash: e987953190eb4c12cf19df790566dc2c
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -520,6 +614,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7a98bd2ad2e7c3acbc9ebdfb2142e1e4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: reversebutton
   - hash:
       serializedVersion: 2
       Hash: 4efcb4847fad1aae1da83e4bd566f736
@@ -822,6 +922,18 @@ ScriptsOnlyBuild:
     className: NetworkObjectProviderDefault
   - hash:
       serializedVersion: 2
+      Hash: aaef31de4ee50cae477c180db0655741
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: button
+  - hash:
+      serializedVersion: 2
+      Hash: e25500fb004b004c9735361278b7cfde
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Health
+  - hash:
+      serializedVersion: 2
       Hash: 9078325c2a6f6a2d9612ade897511860
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -912,6 +1024,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: cb3c8b6903a6864cea7562e41f7a52ec
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Interactable
+  - hash:
+      serializedVersion: 2
       Hash: 522f6865b4ec12522e602206785309f8
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -940,6 +1058,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 85106ed3df29aa866771dfb9a9f02ee4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StartSceneMenu
   - hash:
       serializedVersion: 2
       Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
@@ -996,10 +1120,28 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 74df18f419a8294b8887062d20312f3a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Interaction
+  - hash:
+      serializedVersion: 2
+      Hash: 0ee7013ccd3189f448fdac5c68566734
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MovingPlatform
+  - hash:
+      serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 30605bd3ad2540ad345551210f0f95e0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: destroywall
   - hash:
       serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
@@ -1102,6 +1244,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bfa84edba17fa2218cf005527962ede4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Respawn
   - hash:
       serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
@@ -1432,44 +1580,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 9733ea9304530ce5214cf2076c303a32
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerSpawner
-  - hash:
-      serializedVersion: 2
-      Hash: e25500fb004b004c9735361278b7cfde
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Health
-  - hash:
-      serializedVersion: 2
-      Hash: e55eaf3085208bacd23d3d36d73ecb92
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: 85106ed3df29aa866771dfb9a9f02ee4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: StartSceneMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 74df18f419a8294b8887062d20312f3a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Interaction
-  - hash:
-      serializedVersion: 2
-      Hash: cb3c8b6903a6864cea7562e41f7a52ec
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Interactable
   platform: 19
   scenePathNames:
   - Assets/Scenes/StartScene.unity
   - Assets/Scenes/Shared.unity
-  playerPath: C:/Users/btwar/UnityProjects/UnityBuilds/Multiplayerr/Multiplayerr.exe
+  - Assets/Scenes/EndScene.unity
+  playerPath: C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr.exe
