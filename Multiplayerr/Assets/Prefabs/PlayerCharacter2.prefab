@@ -187,8 +187,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _velocity: {x: 0, y: 0, z: 0}
-  PlayerSpeed: 2
+  PlayerSpeed: 5
   WindStrength: 5
-  JumpForce: 5
+  JumpForce: 8
   GravityValue: -9.81
   Camera: {fileID: 0}

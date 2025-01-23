@@ -29,6 +29,8 @@ ScriptsOnlyBuild:
     - Fusion.Statistics.FusionStatsConfig
     - Fusion.Statistics.FusionStatsGraphDefault
     - Fusion.Statistics.FusionStatsPanelHeader
+    Fusion.Unity.Editor.dll:
+    - Fusion.Editor.FusionEditorSkin
     Fusion.Unity.dll:
     - Fusion.EnableOnSingleRunner
     - Fusion.FusionBootstrap
