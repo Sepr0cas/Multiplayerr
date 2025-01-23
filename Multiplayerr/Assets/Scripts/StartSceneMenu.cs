@@ -19,6 +19,11 @@ public class StartSceneMenu : MonoBehaviour
     {
         GameManager.Instance.SelectedCharacter = character;
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
     public void PlayGame()
     {
         SceneManager.LoadScene(1);

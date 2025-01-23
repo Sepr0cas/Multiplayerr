@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5917936971442172856}
   - component: {fileID: 294515822132330304}
   - component: {fileID: 1661777507094440840}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerCharacter2
   m_TagString: P2
   m_Icon: {fileID: 0}
@@ -186,7 +186,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4142fbc207fd2b49a6892383219b1af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _velocity: {x: 0, y: 0, z: 0}
   PlayerSpeed: 2
+  WindStrength: 5
   JumpForce: 5
   GravityValue: -9.81
   Camera: {fileID: 0}
