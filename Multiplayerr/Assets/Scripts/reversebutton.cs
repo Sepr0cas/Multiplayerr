@@ -4,7 +4,7 @@ using UnityEngine;
 public class reversebutton : MonoBehaviour
 {
     public GameObject puzzleactivate;
-    public GameObject P2puzzleactivate;
+    
 
 
 
@@ -12,31 +12,23 @@ public class reversebutton : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "P1")
+        if (other.gameObject.tag == "P1" || other.gameObject.tag == "P2")
         {
             puzzleactivate.SetActive(false);
             Debug.Log("P1 activate");
         }
-        if (other.gameObject.tag == "P2")
-        {
-            P2puzzleactivate.SetActive(false);
-            Debug.Log("P2 activate");
-        }
+        
     }
 
     private void OnTriggerExit(Collider other)
     {
 
-        if (other.gameObject.tag == "P1")
+        if (other.gameObject.tag == "P1" || other.gameObject.tag == "P2")
         {
             puzzleactivate.SetActive(true);
             Debug.Log("P1 DEactivate");
         }
-        if (other.gameObject.tag == "P2")
-        {
-            P2puzzleactivate.SetActive(true);
-            Debug.Log("P2 activate");
-        }
+        
     }
 
 }
