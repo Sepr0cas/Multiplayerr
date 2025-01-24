@@ -1,338 +1,344 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1737723311678121, "dur":1603, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1737723311679733, "dur":153, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1737723311679925, "dur":281, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1737723311680224, "dur":2059, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1737723311682285, "dur":649229, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1737723312331515, "dur":220, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1737723312331876, "dur":1594, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1737723311680902, "dur":1513, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1737723311682448, "dur":4285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1737723311686752, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":1, "ts":1737723311686741, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1737723311689678, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1737723311691255, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":1, "ts":1737723311691254, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1737723311691734, "dur":3703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1737723311695481, "dur":1168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1737723311696810, "dur":6317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1737723311703182, "dur":1623, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1737723311704844, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1737723311706504, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1737723311706851, "dur":3357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1737723311710290, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1737723311712956, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1737723311713073, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1737723311716169, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1737723311716259, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1737723311719046, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1737723311719287, "dur":3716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1737723311723099, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1737723311726139, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1737723311726203, "dur":7622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1737723311733873, "dur":2801, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1737723311736695, "dur":12807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1737723311749556, "dur":6663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1737723311756246, "dur":575271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1737723311680993, "dur":1519, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1737723311682512, "dur":4262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1737723311686778, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1737723311689433, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1737723311691305, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1737723311691691, "dur":3529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1737723311695256, "dur":1308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1737723311696808, "dur":8862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1737723311705702, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1737723311705776, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1737723311708767, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1737723311709055, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1737723311712589, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1737723311712728, "dur":3167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1737723311716006, "dur":2903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1737723311718974, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1737723311719044, "dur":4074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1737723311723195, "dur":3159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1737723311726450, "dur":7480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1737723311733953, "dur":2721, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1737723311736699, "dur":10190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1737723311746917, "dur":1963, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1737723311748929, "dur":6998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1737723311755967, "dur":575532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1737723311680510, "dur":1802, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1737723311682324, "dur":4132, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1737723311686480, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1737723311686781, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1737723311686890, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1737723311687153, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1737723311687222, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1737723311687328, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1737723311687557, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Fusion.Unity.dll" }}
-,{ "pid":12345, "tid":3, "ts":1737723311687870, "dur":279, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1737723311688151, "dur":432, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1737723311688584, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1737723311688665, "dur":281, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1737723311686781, "dur":2284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1737723311689352, "dur":54, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1737723311689770, "dur":637774, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1737723312330116, "dur":678, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1737723312330115, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1737723312330821, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1737723311681042, "dur":1478, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1737723311682521, "dur":4286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1737723311686807, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1737723311689907, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1737723311691506, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311691505, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311691559, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1737723311691686, "dur":13471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311705202, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1737723311705280, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311707441, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1737723311707519, "dur":3100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Realtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311710721, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1737723311710825, "dur":3894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311714772, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311717811, "dur":3879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311721773, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311725058, "dur":5672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311730824, "dur":12375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1737723311743248, "dur":7756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":4, "ts":1737723311751095, "dur":11689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1737723311762831, "dur":568679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1737723311680532, "dur":1795, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1737723311682330, "dur":537, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1737723311682868, "dur":3683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1737723311686552, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1737723311711060, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1737723311711919, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1737723311712076, "dur":3010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1737723311715117, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1737723311715370, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1737723311718056, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1737723311718287, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1737723311721933, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1737723311722197, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1737723311725393, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1737723311725619, "dur":5310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1737723311730962, "dur":2121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1737723311733106, "dur":10065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1737723311743217, "dur":10096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1737723311753362, "dur":10181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1737723311763565, "dur":567987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1737723311680550, "dur":1783, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1737723311682336, "dur":510, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1737723311682846, "dur":3709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1737723311686566, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1737723311686560, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1737723311750263, "dur":4333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1737723311754628, "dur":8170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1737723311762839, "dur":568655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1737723311680597, "dur":1741, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1737723311682340, "dur":637, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1737723311682978, "dur":3494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1737723311686485, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1737723311686474, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1737723311694627, "dur":8841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1737723311703497, "dur":1302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1737723311704839, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":7, "ts":1737723311706512, "dur":3127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1737723311709740, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Log.dll" }}
-,{ "pid":12345, "tid":7, "ts":1737723311712314, "dur":2760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1737723311715111, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1737723311715349, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1737723311717834, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1737723311721571, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1737723311724784, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1737723311724855, "dur":5659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1737723311730616, "dur":9196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1737723311742831, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Plugins/x86_64/nanosockets.dll" }}
-,{ "pid":12345, "tid":7, "ts":1737723311743594, "dur":7407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1737723311751050, "dur":11384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level1.resS" }}
-,{ "pid":12345, "tid":7, "ts":1737723311762465, "dur":569030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1737723311680617, "dur":1726, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1737723311682346, "dur":575, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1737723311682921, "dur":3567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1737723311686490, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":8, "ts":1737723311702830, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":8, "ts":1737723311705792, "dur":2970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1737723311708798, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1737723311709059, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/NanoSockets.dll" }}
-,{ "pid":12345, "tid":8, "ts":1737723311711966, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1737723311712073, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1737723311715694, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1737723311718728, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1737723311718802, "dur":4152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1737723311722987, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1737723311723053, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1737723311725907, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1737723311725906, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1737723311726006, "dur":34765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1737723311760793, "dur":570716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1737723311680686, "dur":1665, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1737723311682353, "dur":523, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1737723311682876, "dur":3657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1737723311686539, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":9, "ts":1737723311686534, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1737723311705053, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1737723311706193, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":9, "ts":1737723311709282, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1737723311709438, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/websocket-sharp.dll" }}
-,{ "pid":12345, "tid":9, "ts":1737723311712193, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1737723311712303, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1737723311715111, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1737723311715367, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1737723311718089, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1737723311718290, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1737723311721873, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1737723311725282, "dur":5593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1737723311730899, "dur":2185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1737723311733109, "dur":9863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1737723311743012, "dur":3806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":9, "ts":1737723311746857, "dur":2021, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1737723311748928, "dur":6633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1737723311755594, "dur":575916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1737723311680737, "dur":1620, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1737723311682365, "dur":801, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1737723311683166, "dur":3301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1737723311686475, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1737723311696578, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/app.info" }}
-,{ "pid":12345, "tid":10, "ts":1737723311697451, "dur":3377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1737723311701274, "dur":4539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":10, "ts":1737723311705913, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1737723311708024, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1737723311708449, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1737723311710804, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Unity.dll" }}
-,{ "pid":12345, "tid":10, "ts":1737723311713946, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1737723311714015, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1737723311716965, "dur":3842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1737723311720872, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1737723311721305, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1737723311724478, "dur":5589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1737723311730166, "dur":9841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1737723311740049, "dur":2802, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1737723311742871, "dur":6872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1737723311749802, "dur":6033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level2" }}
-,{ "pid":12345, "tid":10, "ts":1737723311755860, "dur":575638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311680813, "dur":1585, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311682401, "dur":565, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311682966, "dur":3517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311686487, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1737723311689410, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1737723311691282, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1737723311691355, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311691721, "dur":5432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1737723311697182, "dur":3648, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311701005, "dur":4435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":11, "ts":1737723311705513, "dur":3268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":11, "ts":1737723311708813, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311709043, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Common.dll" }}
-,{ "pid":12345, "tid":11, "ts":1737723311711746, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":11, "ts":1737723311714069, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311714408, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1737723311716987, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311717143, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1737723311720377, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311720674, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1737723311724196, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1737723311726927, "dur":2821, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311729776, "dur":7613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1737723311737448, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1737723311737549, "dur":11820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1737723311749427, "dur":6745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1737723311756197, "dur":575300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311680896, "dur":1516, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311682414, "dur":728, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311683142, "dur":3335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311686487, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1737723311686479, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1737723311691165, "dur":231, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311689685, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1737723311691452, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311691451, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311691642, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311692715, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":12, "ts":1737723311694372, "dur":7225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":12, "ts":1737723311701647, "dur":932, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311702612, "dur":3290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311705974, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311708793, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311709039, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Sockets.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311711934, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311714165, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311714411, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311716960, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311717158, "dur":3644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311720846, "dur":436, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311721296, "dur":3000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311724331, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311724494, "dur":5717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311730328, "dur":9434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311739791, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1737723311739869, "dur":9715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1737723311749630, "dur":5872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level2.resS" }}
-,{ "pid":12345, "tid":12, "ts":1737723311755529, "dur":575982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1737723311680930, "dur":1512, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1737723311682443, "dur":4338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1737723311686789, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1737723311686783, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1737723311689673, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1737723311691295, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1737723311691294, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1737723311691679, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1737723311695324, "dur":1267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1737723311696764, "dur":6160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":13, "ts":1737723311702969, "dur":1834, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1737723311704841, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":13, "ts":1737723311707111, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":13, "ts":1737723311709743, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":13, "ts":1737723311712874, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1737723311713076, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1737723311716045, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1737723311716253, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1737723311719024, "dur":4271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1737723311723326, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1737723311723600, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1737723311726608, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1737723311726697, "dur":7131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1737723311733856, "dur":2819, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1737723311736693, "dur":12309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1737723311749141, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":13, "ts":1737723311752118, "dur":10475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level0.resS" }}
-,{ "pid":12345, "tid":13, "ts":1737723311762626, "dur":568866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1737723311680948, "dur":1498, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1737723311682447, "dur":4353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1737723311686805, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1737723311689698, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1737723311691322, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":14, "ts":1737723311691963, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":14, "ts":1737723311692663, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr.exe" }}
-,{ "pid":12345, "tid":14, "ts":1737723311694924, "dur":1639, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1737723311696736, "dur":8686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":14, "ts":1737723311705498, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":14, "ts":1737723311707585, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1737723311707721, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Photon3Unity3D.dll" }}
-,{ "pid":12345, "tid":14, "ts":1737723311710678, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1737723311710758, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1737723311713420, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1737723311713536, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1737723311716739, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1737723311719879, "dur":3981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1737723311723945, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1737723311726738, "dur":10088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1737723311736867, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1737723311737060, "dur":6347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1737723311743438, "dur":9786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1737723311753291, "dur":9600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level0" }}
-,{ "pid":12345, "tid":14, "ts":1737723311762914, "dur":568599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1737723311680974, "dur":1481, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1737723311682455, "dur":4273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1737723311761369, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1737723311762180, "dur":569328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1737723311680987, "dur":1474, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1737723311682462, "dur":4132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1737723311686598, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":16, "ts":1737723311749888, "dur":4669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":16, "ts":1737723311754612, "dur":8307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":16, "ts":1737723311762942, "dur":568601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1737723312335448, "dur":835, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1737723766596366, "dur":1414, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737723766597788, "dur":163, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737723766597992, "dur":319, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737723766598457, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1737723766598328, "dur":2138, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737723766600467, "dur":131491, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737723766731959, "dur":177, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737723766732136, "dur":59, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737723766732310, "dur":1341, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1737723766598412, "dur":2060, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737723766600473, "dur":3624, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737723766604114, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737723766604236, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1737723766604307, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1737723766604519, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737723766604597, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737723766604720, "dur":192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737723766604912, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Fusion.Unity.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737723766605185, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737723766605414, "dur":336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737723766605751, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737723766605851, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\THEam\\OneDrive\\Documenten\\griddyhub\\Multiplayerr\\Multiplayerr\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737723766604236, "dur":1955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1737723766606575, "dur":117531, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1737723766726620, "dur":4425, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1737723766726619, "dur":4427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1737723766731080, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1737723766598782, "dur":1849, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737723766600632, "dur":659, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737723766601291, "dur":2838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737723766604134, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1737723766691988, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1737723766692917, "dur":39063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766598500, "dur":1976, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766600479, "dur":826, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766601305, "dur":2796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766604110, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766606710, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1737723766607305, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1737723766607296, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1737723766607368, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766607731, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1737723766608779, "dur":645, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766608778, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766609774, "dur":13137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766622976, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766623077, "dur":2763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766625875, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766625949, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Log.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766630139, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766630260, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766632271, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766632387, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766634634, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737723766634710, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766638344, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766640415, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766643120, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766645990, "dur":11054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766657159, "dur":8497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737723766665746, "dur":5417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1737723766671227, "dur":10047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1737723766681305, "dur":50657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766598586, "dur":1895, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766600484, "dur":541, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766601025, "dur":3184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766604209, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1737723766607485, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1737723766612587, "dur":3653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737723766616298, "dur":722, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766617038, "dur":6541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737723766623646, "dur":1019, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766624683, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737723766627498, "dur":1464, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766628989, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737723766632710, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737723766634892, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766635089, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737723766638401, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766638608, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737723766640881, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766640954, "dur":3119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737723766644183, "dur":6254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737723766650468, "dur":2373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766652879, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737723766652952, "dur":10517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737723766663614, "dur":5027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1737723766668713, "dur":5950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1737723766674715, "dur":7036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1737723766681772, "dur":50192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737723766598660, "dur":1826, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737723766600489, "dur":847, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737723766601336, "dur":2768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737723766604121, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1737723766604105, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1737723766607520, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1737723766608567, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1737723766609758, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1737723766612621, "dur":6718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766619412, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737723766619760, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766623438, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737723766623530, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Realtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766626996, "dur":4107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766631185, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766634365, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737723766634555, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766636577, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737723766636804, "dur":3850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766640766, "dur":2551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766643414, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766646047, "dur":3245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737723766649344, "dur":4569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766653978, "dur":2616, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737723766656630, "dur":9010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737723766665724, "dur":5354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1737723766671143, "dur":10292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1737723766681467, "dur":50493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737723766598730, "dur":1781, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737723766600528, "dur":601, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737723766601130, "dur":3058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737723766604197, "dur":223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1737723766604188, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1737723766684693, "dur":496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1737723766685208, "dur":46800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766598746, "dur":1790, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766600537, "dur":764, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766601301, "dur":2801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766604115, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1737723766604105, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1737723766604620, "dur":5274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1737723766610007, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr.exe" }}
+,{ "pid":12345, "tid":7, "ts":1737723766610840, "dur":1704, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766612627, "dur":6748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766619405, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766619750, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766622644, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766622717, "dur":3115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766625874, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766625961, "dur":3435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766629462, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766631257, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766631407, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766633513, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766633607, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766635976, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766636171, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766638461, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766638664, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766640650, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766643240, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766643366, "dur":6079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766649488, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737723766649694, "dur":7765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766660115, "dur":3390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Plugins/x86_64/nanosockets.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737723766663559, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1737723766666136, "dur":5418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1737723766671604, "dur":10555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1737723766682185, "dur":49751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766598767, "dur":1842, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766600611, "dur":472, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766601083, "dur":3125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766604208, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1737723766607020, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1737723766609979, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1737723766610352, "dur":8541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1737723766618922, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766619064, "dur":3720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766622843, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766625481, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766625608, "dur":3469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Common.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766629189, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766629296, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766633064, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766636470, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766636591, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766639468, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766639590, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766641745, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766641987, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766644421, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766644557, "dur":5447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766650068, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766650151, "dur":10235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766660435, "dur":2536, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766663062, "dur":170, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737723766663241, "dur":5519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737723766668788, "dur":6143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1737723766674959, "dur":56995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737723766598966, "dur":1791, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737723766600758, "dur":3469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737723766604228, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1737723766607223, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1737723766607903, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1737723766608048, "dur":5269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1737723766613352, "dur":2309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737723766620077, "dur":111, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737723766615683, "dur":4540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766620333, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766623519, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737723766623594, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766626366, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737723766626547, "dur":3905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766630545, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766632610, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766634834, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766638497, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737723766638605, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766640547, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766643092, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766645748, "dur":8096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766653891, "dur":2705, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737723766656629, "dur":11971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737723766668686, "dur":12452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1737723766681170, "dur":50768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737723766599023, "dur":1781, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737723766600804, "dur":3405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737723766604216, "dur":218, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1737723766604209, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1737723766691632, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1737723766692441, "dur":39522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737723766598804, "dur":1847, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737723766600652, "dur":515, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737723766601167, "dur":2952, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737723766604125, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1737723766684308, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1737723766684973, "dur":47016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737723766598827, "dur":1893, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737723766600747, "dur":3474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737723766604221, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1737723766604605, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737723766606769, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1737723766608077, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1737723766608076, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1737723766608210, "dur":4512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1737723766612832, "dur":7441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737723766620332, "dur":4621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737723766625016, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Sockets.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737723766627180, "dur":3849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Unity.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737723766631107, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737723766633374, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737723766633437, "dur":6053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737723766639517, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737723766639593, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737723766641639, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737723766644338, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737723766644459, "dur":5636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737723766650186, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737723766650287, "dur":10104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737723766660452, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1737723766663717, "dur":4888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1737723766668677, "dur":6203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1737723766674904, "dur":57054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766599005, "dur":1790, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766600795, "dur":3415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766604210, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1737723766608037, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1737723766608685, "dur":784, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766608684, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766609471, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766609856, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766610879, "dur":1674, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766612725, "dur":6695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766619637, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766619748, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766622331, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766622456, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766625240, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766625341, "dur":4206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/NanoSockets.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766629634, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766631968, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766632067, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766634495, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766634612, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766637083, "dur":896, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766638038, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766640506, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766643063, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766645973, "dur":3314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766649344, "dur":7718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766657105, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766665502, "dur":113, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737723766657195, "dur":8432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737723766665935, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1737723766669033, "dur":6159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1737723766675220, "dur":56733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737723766598919, "dur":1814, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737723766600734, "dur":3488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737723766604223, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1737723766604789, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737723766608480, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1737723766613213, "dur":7160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766620432, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766623749, "dur":909, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737723766624673, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Fusion.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766626860, "dur":3841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766630725, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737723766630811, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766633308, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737723766633568, "dur":4996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766638698, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737723766638823, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766641656, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766644112, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766644111, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766644293, "dur":36246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737723766680564, "dur":51389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766598942, "dur":1801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766600744, "dur":3478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766604231, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1737723766604222, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1737723766606841, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1737723766608497, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1737723766608656, "dur":4377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1737723766613132, "dur":8980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737723766622187, "dur":4203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737723766626429, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766626543, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737723766629701, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766629929, "dur":5203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737723766635184, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766635274, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737723766636755, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766636877, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737723766639593, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766639678, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737723766641743, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766642002, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737723766644814, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766645221, "dur":8743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737723766654031, "dur":2564, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737723766656633, "dur":8912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737723766665623, "dur":5942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1737723766671608, "dur":9960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/Multiplayerr_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1737723766681603, "dur":50336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737723766598987, "dur":1804, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737723766600792, "dur":3426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737723766604232, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.32f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":16, "ts":1737723766604218, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1737723766684030, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/THEam/OneDrive/School/multipalyer game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1737723766684867, "dur":47123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737723766735686, "dur":867, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 37
+  controlID: 95
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 38
+  controlID: 96
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -448,10 +448,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 240}
-      m_SelectedIDs: 86680000
-      m_LastClickedID: 26758
-      m_ExpandedIDs: 5cf2ffff66f6ffffb2f6ffff58f8ffff78f9ffff96f9ffff30fbffff1a6600004666000098670000
+      scrollPos: {x: 0, y: 167.20001}
+      m_SelectedIDs: ccf0ffff
+      m_LastClickedID: -3892
+      m_ExpandedIDs: daf2ffffaaf6fffff6f6ffff9cf8ffffbcf9ffffdaf9ffff30fbffffde670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -948,9 +948,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.2205358, y: 10.930904, z: 8.440924}
+    m_Target: {x: 8.482498, y: -0.19095506, z: 62.4079}
     speed: 2
-    m_Value: {x: 7.2205358, y: 10.930904, z: 8.440924}
+    m_Value: {x: 8.482498, y: -0.19095506, z: 62.4079}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -996,13 +996,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.3717654, y: 0.5667593, z: -0.31810555, w: 0.6630595}
+    m_Target: {x: 0.43263716, y: 0.53985393, z: -0.38108584, w: 0.6135343}
     speed: 2
-    m_Value: {x: 0.37133428, y: 0.56747943, z: -0.31850928, w: 0.6622913}
+    m_Value: {x: 0.43263713, y: 0.53985393, z: -0.38108584, w: 0.6135342}
   m_Size:
-    m_Target: 5.978701
+    m_Target: 23.478596
     speed: 2
-    m_Value: 6.26042
+    m_Value: 22.467556
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1072,7 +1072,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1080,16 +1080,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 71
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 71
   m_LastProjectPath: C:\Users\THEam\OneDrive\Documenten\griddyhub\Multiplayerr\Multiplayerr
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 84.600006}
-    m_SelectedIDs: 7e5c0000
-    m_LastClickedID: 23678
-    m_ExpandedIDs: 000000005c5c00005e5c0000605c0000625c0000645c0000665c0000685c00006a5c000000ca9a3b
+    m_SelectedIDs: 805c0000
+    m_LastClickedID: 23680
+    m_ExpandedIDs: 00000000605c0000625c0000645c0000665c0000685c00006a5c00006c5c00006e5c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1117,7 +1117,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c5c00005e5c0000605c0000625c0000645c0000665c0000685c00006a5c0000
+    m_ExpandedIDs: 00000000605c0000625c0000645c0000665c0000685c00006a5c00006c5c00006e5c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1169,7 +1169,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 64}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 71
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 178.20001
