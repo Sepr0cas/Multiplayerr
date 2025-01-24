@@ -10,10 +10,11 @@ public class PlayerMovement : NetworkBehaviour
     private CharacterController _controller;
 
     public float PlayerSpeed = 2f;
-    public float WindStrength = 5f; // Public for easy wind force adjustment
+    public float WindStrength = 5f;
 
     public float JumpForce = 5f;
     public float GravityValue = -9.81f;
+    public float GravityAmplifier = 2.5f;
 
     public Camera Camera;
 
@@ -41,23 +42,29 @@ public class PlayerMovement : NetworkBehaviour
 
     public override void FixedUpdateNetwork()
     {
-        // FixedUpdateNetwork is only executed on the StateAuthority
-
         if (_controller.isGrounded)
         {
-            _velocity = new Vector3(0, -1, 0);
+            _velocity.y = -1f;
         }
+
 
         Quaternion cameraRotationY = Quaternion.Euler(0, Camera.transform.rotation.eulerAngles.y, 0);
         Vector3 move = cameraRotationY * new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) * Runner.DeltaTime * PlayerSpeed;
 
-        
+        if (_velocity.y < 0)
+        {
+            _velocity.y += GravityValue * GravityAmplifier * Runner.DeltaTime;
+        }
+        else
+        {
+            _velocity.y += GravityValue * Runner.DeltaTime;
+        }
 
-        _velocity.y += GravityValue * Runner.DeltaTime;
         if (_jumpPressed && _controller.isGrounded)
         {
             _velocity.y += JumpForce;
         }
+
         _controller.Move(move + _velocity * Runner.DeltaTime);
 
         if (move != Vector3.zero)
@@ -67,7 +74,4 @@ public class PlayerMovement : NetworkBehaviour
 
         _jumpPressed = false;
     }
-
-   
- 
 }
