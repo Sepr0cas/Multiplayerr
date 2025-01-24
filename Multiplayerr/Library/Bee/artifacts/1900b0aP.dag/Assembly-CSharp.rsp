@@ -328,6 +328,7 @@
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/Interactable.cs"
 "Assets/Scripts/Interaction.cs"
+"Assets/Scripts/lastarrow.cs"
 "Assets/Scripts/Moving platform.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PlayerSpawner.cs"
