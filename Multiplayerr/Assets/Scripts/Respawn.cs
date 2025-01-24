@@ -4,7 +4,7 @@ using UnityEngine.SearchService;
 
 public class Respawn : MonoBehaviour
 {
-    public MovingPlatform platform;
+    public lastarrow lastarrow;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("P1") || other.CompareTag("P2"))
@@ -16,7 +16,7 @@ public class Respawn : MonoBehaviour
                 controller.enabled = false;
                 other.gameObject.transform.position = new Vector3(0f, 3f, 0f);
                 controller.enabled = true;
-                platform.Reset();
+                lastarrow.Reset();
             }
 
             Debug.Log("respawn");

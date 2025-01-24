@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    public GameObject arrow;
+    
     public GameObject checkpoint1;
     public GameObject checkpoint2;
     public float speed = 2f;
@@ -17,7 +17,7 @@ public class MovingPlatform : MonoBehaviour
         targetPosition = checkpoint1.transform.position;
     }
 
-    public void move()
+    public void Update()
     {
        
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
@@ -34,8 +34,5 @@ public class MovingPlatform : MonoBehaviour
            
         }
     }
-    public void Reset()
-    {
-        arrow.gameObject.transform.position = new Vector3(6.94f, 8.49f, 22.6f);
-    }
+  
 }

@@ -1,8 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp:
+    - CursorScript
     - PlayerMovement
     Assembly-CSharp.dll:
+    - CursorScript
     - FirstPersonCamera
     - GameManager
     - MovingPlatform
@@ -14,6 +16,7 @@ ScriptsOnlyBuild:
     - arrownetwork
     - button
     - reversebutton
+    - whenmovingplatform
     Fusion.Realtime.dll:
     - Fusion.Photon.Realtime.PhotonAppSettings
     Fusion.Runtime.dll:
@@ -30,8 +33,6 @@ ScriptsOnlyBuild:
     - Fusion.Statistics.FusionStatsConfig
     - Fusion.Statistics.FusionStatsGraphDefault
     - Fusion.Statistics.FusionStatsPanelHeader
-    Fusion.Unity.Editor.dll:
-    - Fusion.Editor.FusionEditorSkin
     Fusion.Unity.dll:
     - Fusion.EnableOnSingleRunner
     - Fusion.FusionBootstrap
@@ -222,21 +223,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2640}
     - Class: 114
-      Script: {instanceID: 2868}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3172}
+      Script: {instanceID: 3162}
     - Class: 114
-      Script: {instanceID: 5114}
+      Script: {instanceID: 5102}
     - Class: 114
-      Script: {instanceID: 5128}
+      Script: {instanceID: 5116}
     - Class: 114
-      Script: {instanceID: 5694}
+      Script: {instanceID: 5680}
     - Class: 114
-      Script: {instanceID: 5890}
+      Script: {instanceID: 5874}
     - Class: 114
-      Script: {instanceID: 6230}
+      Script: {instanceID: 6212}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -287,41 +288,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 640}
     - Class: 114
-      Script: {instanceID: 1848}
+      Script: {instanceID: 5506}
     - Class: 114
-      Script: {instanceID: 2216}
+      Script: {instanceID: 5764}
     - Class: 114
-      Script: {instanceID: 2636}
+      Script: {instanceID: 5804}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 5808}
     - Class: 114
-      Script: {instanceID: 4348}
+      Script: {instanceID: 5812}
     - Class: 114
-      Script: {instanceID: 5518}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 5558}
+      Script: {instanceID: 5818}
     - Class: 114
-      Script: {instanceID: 5780}
+      Script: {instanceID: 6902}
     - Class: 114
-      Script: {instanceID: 5820}
+      Script: {instanceID: 7486}
     - Class: 114
-      Script: {instanceID: 5824}
+      Script: {instanceID: 8448}
     - Class: 114
-      Script: {instanceID: 5828}
+      Script: {instanceID: 8456}
     - Class: 114
-      Script: {instanceID: 5832}
+      Script: {instanceID: 8460}
     - Class: 114
-      Script: {instanceID: 5834}
+      Script: {instanceID: 8464}
     - Class: 114
-      Script: {instanceID: 6110}
+      Script: {instanceID: 8468}
     - Class: 114
-      Script: {instanceID: 6920}
+      Script: {instanceID: 8472}
     - Class: 114
-      Script: {instanceID: 7504}
+      Script: {instanceID: 8476}
     - Class: 114
-      Script: {instanceID: 7894}
+      Script: {instanceID: 8480}
     - Class: 114
-      Script: {instanceID: 24384}
+      Script: {instanceID: 8484}
+    - Class: 114
+      Script: {instanceID: 8488}
+    - Class: 114
+      Script: {instanceID: 8492}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -368,71 +373,73 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1832}
     - Class: 114
-      Script: {instanceID: 2216}
+      Script: {instanceID: 2224}
     - Class: 114
-      Script: {instanceID: 2228}
+      Script: {instanceID: 2640}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2742}
     - Class: 114
-      Script: {instanceID: 2752}
+      Script: {instanceID: 2840}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 2868}
+      Script: {instanceID: 3162}
     - Class: 114
-      Script: {instanceID: 3172}
+      Script: {instanceID: 3230}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 3334}
     - Class: 114
-      Script: {instanceID: 3344}
+      Script: {instanceID: 3910}
     - Class: 114
-      Script: {instanceID: 3920}
+      Script: {instanceID: 4134}
     - Class: 114
-      Script: {instanceID: 4144}
+      Script: {instanceID: 4148}
     - Class: 114
-      Script: {instanceID: 4158}
+      Script: {instanceID: 4408}
     - Class: 114
-      Script: {instanceID: 4420}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5002}
+      Script: {instanceID: 5042}
     - Class: 114
-      Script: {instanceID: 5054}
+      Script: {instanceID: 5102}
     - Class: 114
-      Script: {instanceID: 5114}
+      Script: {instanceID: 5116}
     - Class: 114
-      Script: {instanceID: 5128}
+      Script: {instanceID: 5366}
     - Class: 114
-      Script: {instanceID: 5378}
+      Script: {instanceID: 5680}
     - Class: 114
-      Script: {instanceID: 5694}
+      Script: {instanceID: 5808}
     - Class: 114
-      Script: {instanceID: 5824}
+      Script: {instanceID: 5812}
     - Class: 114
-      Script: {instanceID: 5828}
+      Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 5830}
+      Script: {instanceID: 5818}
     - Class: 114
-      Script: {instanceID: 5834}
+      Script: {instanceID: 5874}
     - Class: 114
-      Script: {instanceID: 5890}
+      Script: {instanceID: 6212}
     - Class: 114
-      Script: {instanceID: 6230}
+      Script: {instanceID: 6220}
     - Class: 114
-      Script: {instanceID: 6238}
+      Script: {instanceID: 6622}
     - Class: 114
-      Script: {instanceID: 6640}
+      Script: {instanceID: 7000}
     - Class: 114
-      Script: {instanceID: 7018}
+      Script: {instanceID: 7080}
     - Class: 114
-      Script: {instanceID: 7098}
+      Script: {instanceID: 7270}
     - Class: 114
-      Script: {instanceID: 7288}
+      Script: {instanceID: 7302}
     - Class: 114
-      Script: {instanceID: 7320}
+      Script: {instanceID: 7560}
     - Class: 114
-      Script: {instanceID: 7578}
+      Script: {instanceID: 7596}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 8464}
+    - Class: 114
+      Script: {instanceID: 8472}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -510,12 +517,6 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9733ea9304530ce5214cf2076c303a32
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerSpawner
-  - hash:
-      serializedVersion: 2
       Hash: f854af586011dd194574f89546642e29
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -526,12 +527,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: b519ffb48bc0b8a7f1e9b66a9dc28cd4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerMovement
   - hash:
       serializedVersion: 2
       Hash: d49f2cfabf362aaa97e5b57e33860de3
@@ -582,12 +577,6 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9314d242655ed5ec3b0d75f8b54fd9e5
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WinScreen
-  - hash:
-      serializedVersion: 2
       Hash: e987953190eb4c12cf19df790566dc2c
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -622,12 +611,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 7a98bd2ad2e7c3acbc9ebdfb2142e1e4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: reversebutton
   - hash:
       serializedVersion: 2
       Hash: 4efcb4847fad1aae1da83e4bd566f736
@@ -930,12 +913,6 @@ ScriptsOnlyBuild:
     className: NetworkObjectProviderDefault
   - hash:
       serializedVersion: 2
-      Hash: aaef31de4ee50cae477c180db0655741
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: button
-  - hash:
-      serializedVersion: 2
       Hash: e25500fb004b004c9735361278b7cfde
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1134,22 +1111,10 @@ ScriptsOnlyBuild:
     className: Interaction
   - hash:
       serializedVersion: 2
-      Hash: 0ee7013ccd3189f448fdac5c68566734
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MovingPlatform
-  - hash:
-      serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
-  - hash:
-      serializedVersion: 2
-      Hash: 30605bd3ad2540ad345551210f0f95e0
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: destroywall
   - hash:
       serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
@@ -1252,12 +1217,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: bfa84edba17fa2218cf005527962ede4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Respawn
   - hash:
       serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
@@ -1548,12 +1507,6 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: ba8834ef1ac8b77a971ac1a805e983f4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FirstPersonCamera
-  - hash:
-      serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1590,10 +1543,76 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 9314d242655ed5ec3b0d75f8b54fd9e5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WinScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 30605bd3ad2540ad345551210f0f95e0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: destroywall
+  - hash:
+      serializedVersion: 2
+      Hash: aaef31de4ee50cae477c180db0655741
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: button
+  - hash:
+      serializedVersion: 2
+      Hash: 173f26cef8a3cc725e20cc709dc49b31
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Respawn
+  - hash:
+      serializedVersion: 2
+      Hash: bd01b73c5063fa0eb539a1bd637a1002
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CursorScript
+  - hash:
+      serializedVersion: 2
+      Hash: 9733ea9304530ce5214cf2076c303a32
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 2583f20738ea06beeb4a4793004e0985
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: ba8834ef1ac8b77a971ac1a805e983f4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FirstPersonCamera
+  - hash:
+      serializedVersion: 2
       Hash: f0d1fdb72a85b285a0667e7a4eb1aa9d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: arrownetwork
+  - hash:
+      serializedVersion: 2
+      Hash: 7a98bd2ad2e7c3acbc9ebdfb2142e1e4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: reversebutton
+  - hash:
+      serializedVersion: 2
+      Hash: a2fc3cf529521bae2c1952735e6b6834
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: whenmovingplatform
+  - hash:
+      serializedVersion: 2
+      Hash: 6539dcbfb37345ddcca452227d1f3997
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MovingPlatform
   platform: 19
   scenePathNames:
   - Assets/Scenes/StartScene.unity

@@ -202,6 +202,7 @@ MonoBehaviour:
   _velocity: {x: 0, y: 0, z: 0}
   PlayerSpeed: 5
   WindStrength: 5
-  JumpForce: 8
+  JumpForce: 8.5
   GravityValue: -9.81
+  GravityAmplifier: 2.5
   Camera: {fileID: 0}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class whenmovingplatform : MonoBehaviour
 {
-    public MovingPlatform platform;
+    public lastarrow lastarrow;
     public GameObject checkpoint;
 
     private void Start()
@@ -21,7 +21,7 @@ public class whenmovingplatform : MonoBehaviour
     {
         if (other.CompareTag("P1") || other.CompareTag("P2"))
         {
-            platform.move();
+            lastarrow.Move();
 
         }
         
